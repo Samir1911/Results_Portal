@@ -1,0 +1,92 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-image:url(Assets/bg1.jpg);
+    background-position:center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#Kits_logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    color: blue;
+    width: 100%;
+    height:120px;
+    padding:0 20px;
+    box-sizing: border-box;
+}
+#clg{
+    margin:0 5px;
+}
+h1 span {
+    color: rgb(216, 0, 0);
+}
+
+#Kits_logo div h1 {
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+#Kits_logo p {
+    margin-top: -25px;
+}
+header a{
+    margin:0 10px;
+    border-style: solid;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-size:14px;
+    padding:5px 10px;
+    border:0;
+    color:white;
+    font-weight:600;
+}
+#links{
+    display:flex;
+}
+main {
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+input[type=submit] {
+    background: linear-gradient(to right, rgb(53, 53, 233), rgb(149, 4, 253));
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    border:0;
+}
+footer p{
+    width:fit-content;
+    margin:30px auto;
+}
+a{
+    text-decoration: none;
+}
+.close{
+    margin: 5px 0 0 360px;
+    padding: 4px;
+}
+@media(max-width:1200px){
+    #clg{
+        font-size:20px;
+    }
+}
+@media(max-width:1000px){
+    #clg{
+        font-size:18px;
+    }
+    #Kits_logo div h1{
+        font-size:25px;
+    }
+}
+@media(max-width:600px){
+    #clg{
+        display:none;
+    }
+    
+}
